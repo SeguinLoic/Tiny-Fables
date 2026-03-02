@@ -1,9 +1,13 @@
 ---
+interface Props {
+  href: string;
+}
+
 const { href } = Astro.props;
 ---
 
 <li class="flex items-center gap-1.5">
-  <a href={href} class="link">
+  <a href={href} class="link" target="_blank" rel="noopener noreferrer">
     <slot />
   </a>
   <svg

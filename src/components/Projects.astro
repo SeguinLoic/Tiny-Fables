@@ -5,11 +5,11 @@ import ExternalLink from "@/components/ExternalLink.astro";
 const projects = await getCollection("projects");
 ---
 
-<section class="py-3">
-  <h2 class="text-muted-text dark:text-dark-muted-text mb-3 text-lg font-bold">
-    Projects
-  </h2>
-  <div class="grid list-none gap-4 p-0">
+<section>
+  <div class="prose dark:prose-invert prose-neutral mb-3">
+    <h2>Projects</h2>
+  </div>
+  <ul class="grid list-none gap-4 p-0">
     {
       projects.map((project) => (
         <ExternalLink href={project.data.href}>
@@ -17,5 +17,5 @@ const projects = await getCollection("projects");
         </ExternalLink>
       ))
     }
-  </div>
+  </ul>
 </section>

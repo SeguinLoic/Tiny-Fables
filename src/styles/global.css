@@ -1,6 +1,5 @@
 @import "tailwindcss";
 @import "./typography.css" layer(components);
-@variant dark (&:where(.dark, .dark *));
 
 :root {
   color-scheme: light dark;
@@ -34,22 +33,23 @@
 }
 
 /* ensure .link and typography.css are consistent */
-.link {
-  --prose-link-color: var(--color-link);
-  --prose-link-underline-color: var(--color-link);
-
-  color: var(--prose-link-color);
+.link,
+.prose :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  color: var(--color-link);
   font-weight: var(--font-weight-semibold);
   text-decoration: underline;
   text-underline-offset: 3px;
-  text-decoration-color: var(--prose-link-underline-color);
+  text-decoration-color: var(--color-link);
   text-decoration-thickness: 1px;
   & code {
     font-weight: var(--font-weight-semibold);
   }
 }
 
-.dark .link {
-  --prose-link-color: var(--color-dark-link);
-  --prose-link-underline-color: var(--color-dark-link);
+.dark .link,
+.dark
+  .prose
+  :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  color: var(--color-dark-link);
+  text-decoration-color: var(--color-dark-link);
 }

@@ -1,12 +1,17 @@
 ---
+import type { CollectionEntry } from "astro:content";
 import { formatDate } from "@/lib/util";
+
+interface Props {
+  post: CollectionEntry<"posts">;
+}
 
 const { post } = Astro.props;
 ---
 
 <li>
   <a
-    href={`/blog/${post.id}`}
+    href={`/posts/${post.id}`}
     class="link flex w-full flex-col sm:flex-row sm:items-center sm:justify-between"
   >
     <span>{post.data.title}</span>

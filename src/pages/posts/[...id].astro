@@ -9,12 +9,12 @@ import SeoPost from "@/components/SeoPost.astro";
 import { formatDate } from "@/lib/util";
 
 interface Props {
-  entry: CollectionEntry<"blog">;
+  entry: CollectionEntry<"posts">;
 }
 
 export async function getStaticPaths() {
-  const blog = await getCollection("blog");
-  return blog.map((entry) => ({
+  const posts = await getCollection("posts");
+  return posts.map((entry) => ({
     params: { id: entry.id },
     props: { entry },
   }));
@@ -45,14 +45,12 @@ const { Content } = await render(entry);
     <p class="text-muted-text dark:text-dark-muted-text mt-3">
       {formatDate(entry.data.publicationDate)}
     </p>
-    <hr
-      class="border-muted-text dark:border-dark-muted-text my-12 border-[0.5px] opacity-10 dark:opacity-15"
-    />
-    <div class="prose mx-auto">
-      <Content />
+    <div class="prose dark:prose-invert prose-neutral">
+      <hr class="my-12" />
+      <div>
+        <Content />
+      </div>
+      <hr class="my-12" />
     </div>
-    <hr
-      class="border-muted-text dark:border-dark-muted-text my-32 border-[0.5px] opacity-10 dark:opacity-15"
-    />
   </div>
 </BaseLayout>

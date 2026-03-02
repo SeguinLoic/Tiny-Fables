@@ -4,19 +4,17 @@ import { SOCIAL_LINKS } from "@/siteConfig";
 import ExternalLink from "@/components/ExternalLink.astro";
 ---
 
-<section class="py-3">
-  <h2 class="text-muted-text dark:text-dark-muted-text mb-3 text-lg font-bold">
-    Feedback
-  </h2>
-  <div class="grid list-none gap-4 p-0">
+<section>
+  <div class="prose dark:prose-invert prose-neutral mb-3">
+    <h2>Contact</h2>
+  </div>
+  <ul class="grid list-none gap-4 p-0">
     {
-      Object.keys(SOCIAL_LINKS).map((socialLinkKey) => {
+      Object.values(SOCIAL_LINKS).map((socialLink) => {
         return (
-          <ExternalLink href={SOCIAL_LINKS[socialLinkKey].href}>
-            {SOCIAL_LINKS[socialLinkKey].label}
-          </ExternalLink>
+          <ExternalLink href={socialLink.href}>{socialLink.label}</ExternalLink>
         );
       })
     }
-  </div>
+  </ul>
 </section>

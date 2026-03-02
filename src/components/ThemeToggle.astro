@@ -80,25 +80,6 @@
   }
 </style>
 
-<script data-astro-rerun is:inline>
-  (function () {
-    const theme = localStorage.getItem("currentTheme") || "system";
-    const prefersDark = window.matchMedia(
-      "(prefers-color-scheme: dark)",
-    ).matches;
-
-    const isDark = theme === "dark" || (theme === "system" && prefersDark);
-
-    if (isDark) {
-      document.documentElement.classList.add("dark");
-      document.documentElement.classList.remove("light");
-    } else {
-      document.documentElement.classList.add("light");
-      document.documentElement.classList.remove("dark");
-    }
-  })();
-</script>
-
 <script>
   type Theme = "light" | "dark" | "system" | null;
 
@@ -129,8 +110,6 @@
       document.documentElement.classList.add("light");
       document.documentElement.classList.remove("dark");
     }
-
-    (window as any)._updateTheme?.(theme);
   }
 
   function initThemeToggle(): void {
@@ -165,14 +144,9 @@
       });
   }
 
-  document.addEventListener("DOMContentLoaded", initThemeToggle);
-
-  document.addEventListener("astro:page-load", initThemeToggle);
-
-  if (
-    document.readyState === "interactive" ||
-    document.readyState === "complete"
-  ) {
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initThemeToggle);
+  } else {
     initThemeToggle();
   }
 </script>

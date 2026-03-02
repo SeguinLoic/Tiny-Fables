@@ -1,6 +1,4 @@
 ---
-import { ClientRouter } from "astro:transitions";
-
 import { SITE } from "@/siteConfig";
 
 import Favicons from "@/components/Favicons.astro";
@@ -8,7 +6,6 @@ import Favicons from "@/components/Favicons.astro";
 
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="HandheldFriendly" content="True" />
   <meta name="format-detection" content="telephone=no" />
   <meta name="referrer" content="no-referrer-when-downgrade" />
@@ -36,9 +33,20 @@ import Favicons from "@/components/Favicons.astro";
     title={SITE.title}
     href={new URL("rss.xml", Astro.site)}
   />
-
-  <ClientRouter />
   <Favicons />
-
+  <script is:inline>
+    const theme = localStorage.getItem("currentTheme") || "system";
+    const prefersDark = window.matchMedia(
+      "(prefers-color-scheme: dark)",
+    ).matches;
+    const isDark = theme === "dark" || (theme === "system" && prefersDark);
+    if (isDark) {
+      document.documentElement.classList.add("dark");
+      document.documentElement.classList.remove("light");
+    } else {
+      document.documentElement.classList.add("light");
+      document.documentElement.classList.remove("dark");
+    }
+  </script>
   <slot />
 </head>
