@@ -3,7 +3,7 @@ import { NAV_LINKS, SITE } from "@/siteConfig.ts";
 ---
 
 <header
-  class="mx-auto flex max-w-screen-sm flex-wrap items-center justify-between p-3 pb-8 font-sans sm:p-6"
+  class="mx-auto flex max-w-screen-sm flex-wrap items-center justify-between p-3 pb-8 sm:p-6"
 >
   <a
     href="/"
@@ -16,10 +16,7 @@ import { NAV_LINKS, SITE } from "@/siteConfig.ts";
         Object.values(NAV_LINKS).map((navItem) => {
           return (
             <li>
-              <a
-                href={navItem.path}
-                class="prose dark:prose-invert prose-neutral"
-              >
+              <a href={navItem.path} class="link">
                 {navItem.label}
               </a>
             </li>

@@ -32,6 +32,10 @@
   --color-dark-muted-text: var(--color-neutral-300);
 }
 
+@theme inline {
+  --font-sans: var(--font-geist);
+}
+
 /* ensure .link and typography.css are consistent */
 .link,
 .prose :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)) {

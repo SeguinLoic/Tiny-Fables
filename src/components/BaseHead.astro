@@ -1,6 +1,8 @@
 ---
 import { SITE } from "@/siteConfig";
 
+import { Font } from "astro:assets";
+
 import Favicons from "@/components/Favicons.astro";
 ---
 
@@ -34,6 +36,7 @@ import Favicons from "@/components/Favicons.astro";
     href={new URL("rss.xml", Astro.site)}
   />
   <Favicons />
+  <Font cssVariable="--font-geist" preload />
   <script is:inline>
     const theme = localStorage.getItem("currentTheme") || "system";
     const prefersDark = window.matchMedia(
