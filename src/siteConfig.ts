@@ -6,8 +6,7 @@ import type {
 
 export const SITE: SiteConfiguration = {
   title: "Barebones",
-  description:
-    "A barebones starter theme. Built with Astro, Tailwind CSS, and Markdown.",
+  description: "A barebones starter theme. Built with Astro, Tailwind CSS, and Markdown.",
   href: "https://barebones.trevortylerlee.com",
   author: "Trevor Tyler Lee",
   locale: "en-CA",
