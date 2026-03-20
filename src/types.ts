@@ -14,12 +14,3 @@ export type NavigationLink = {
   label: string;
   path: string;
 };
-
-// export type SocialLinks = {
-//   [key: string]: SocialLink;
-// };
-
-// export type SocialLink = {
-//   label: string;
-//   href: string;
-// };
