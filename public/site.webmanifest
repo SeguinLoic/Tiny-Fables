@@ -1,6 +1,6 @@
 {
-  "name": "Barebones",
-  "short_name": "Barebones",
+  "name": "TinyFables",
+  "short_name": "TinyFables",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
