@@ -18,7 +18,7 @@ export default defineConfig({
       theme: "dark-plus",
     },
   },
-  site: "https://barebones.trevortylerlee.com",
+  site: "https://tinyfables.netlify.app/",
   vite: {
     plugins: [tailwindcss()],
   },

@@ -15,11 +15,11 @@ export type NavigationLink = {
   path: string;
 };
 
-export type SocialLinks = {
-  [key: string]: SocialLink;
-};
+// export type SocialLinks = {
+//   [key: string]: SocialLink;
+// };
 
-export type SocialLink = {
-  label: string;
-  href: string;
-};
+// export type SocialLink = {
+//   label: string;
+//   href: string;
+// };

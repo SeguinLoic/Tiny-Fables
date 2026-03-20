@@ -5,11 +5,11 @@ import type {
 } from "@/types.ts";
 
 export const SITE: SiteConfiguration = {
-  title: "Barebones",
-  description: "A barebones starter theme. Built with Astro, Tailwind CSS, and Markdown.",
-  href: "https://barebones.trevortylerlee.com",
-  author: "Trevor Tyler Lee",
-  locale: "en-CA",
+  title: "TinyFables",
+  description: "Des aventures de petites souris.",
+  href: "https://tinyfables.netlify.app/",
+  author: "LeMJ",
+  locale: "fr",
 };
 
 export const NAV_LINKS: NavigationLinks = {
