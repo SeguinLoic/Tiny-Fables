@@ -1,5 +1,5 @@
 ---
-title: The Metamorphosis (1915)
+title: Départ à l'aventure et rencontre terrifiante
 description: A salesman wakes up and finds himself transformed into an insect.
 publicationDate: 2024-08-03
 image: "./metamorphosis.jpg"
