@@ -14,7 +14,7 @@ const { post } = Astro.props;
     href={`/posts/${post.id}`}
     class="flex w-full flex-col sm:flex-row sm:items-center sm:justify-between"
   >
-    <span class="link">{post.id}_ {post.data.title}</span>
+    <span class="link">{post.data.title}</span>
     <div class="text-muted-text dark:text-dark-muted-text text-sm font-normal">
       {formatDate(post.data.publicationDate)}
     </div>
@@ -22,7 +22,7 @@ const { post } = Astro.props;
 </li>
 
 <style>
-li a span {
+/* li a span {
   text-decoration: none;
-}
+} */
 </style>
