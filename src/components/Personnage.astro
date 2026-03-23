@@ -14,25 +14,25 @@ const { personnage } = Astro.props;
     <div>
         <span class="text-xl leading-[1.3em] font-pirata">{personnage.data.name}</span>
         <div>
-            <span>level: {personnage.data.level}</span>
+            <span>Level: {personnage.data.level}</span>
             <span>Pips: {personnage.data.pips}</span>
         </div>
         <table>
             <tbody>
                 <tr>
-                    <th scope="row">Strength</th>
+                    <th scope="row" class="bg-gray-100">Strength</th>
                     <td>{personnage.data.stats.str}</td>
                 </tr>
                 <tr>
-                    <th scope="row">Dexterity</th>
+                    <th scope="row" class="bg-gray-100">Dexterity</th>
                     <td>{personnage.data.stats.dex}</td>
                 </tr>
                 <tr>
-                    <th scope="row">Will power</th>
+                    <th scope="row" class="bg-gray-100">Will power</th>
                     <td>{personnage.data.stats.will}</td>
                 </tr>
                 <tr>
-                    <th scope="row">Life</th>
+                    <th scope="row" class="bg-gray-100">Life</th>
                     <td>{personnage.data.stats.life}</td>
                 </tr>
             </tbody>
