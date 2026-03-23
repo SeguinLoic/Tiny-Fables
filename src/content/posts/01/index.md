@@ -1,5 +1,5 @@
 ---
-title: La découverte du village de Débois
+title: La déprime de frère Hans, la malédiction d'EA et la taverne
 description: A girl falls through a rabbit hole.
 publicationDate: 2024-07-02
 ---

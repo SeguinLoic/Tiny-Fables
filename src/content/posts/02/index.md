@@ -1,5 +1,5 @@
 ---
-title: Départ à l'aventure et rencontre terrifiante
+title: Une demande en mariage, la rencontre avec Mab et Foggy qui pionce
 description: A salesman wakes up and finds himself transformed into an insect.
 publicationDate: 2024-08-03
 image: "./metamorphosis.jpg"
