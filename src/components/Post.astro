@@ -1,7 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import { formatDate } from "@/lib/util";
-import { Debug } from 'astro/components';
 
 interface Props {
   post: CollectionEntry<"posts">;
@@ -9,7 +8,6 @@ interface Props {
 
 const { post } = Astro.props;
 ---
-<Debug {post} />
 
 <li>
   <a
