@@ -9,10 +9,10 @@ interface Props {
 const { personnage } = Astro.props;
 ---
 
-<li>
-    <Image src={personnage.data.image.source} alt={personnage.data.image.alt} width="90px" />
+<li class="flex flex-row items-start gap-24">
+    <!-- <Image src={personnage.data.image.source} alt={personnage.data.image.alt} width="90px" /> -->
     <div>
-        <span class="name">{personnage.data.name}</span>
+        <span class="name text-xl font-bold leading-[1.3em]">{personnage.data.name}</span>
         <div>
             <span>level: {personnage.data.level}</span>
             <span>Pips: {personnage.data.pips}</span>
@@ -42,18 +42,6 @@ const { personnage } = Astro.props;
 
 
 <style>
-li {
-    padding: 16px 0px;
-    display: flex;
-    flex-direction: row;
-    align-items: self-start;
-    gap: 24px;
-}
-span.name {
-    font-size: 1.3em;
-    font-weight: 700;
-    line-height: 1em;
-}
 table tbody tr {
     border: 1px solid;
 }
