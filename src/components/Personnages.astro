@@ -1,0 +1,15 @@
+---
+import { getCollection } from "astro:content";
+import Personnage from "@/components/Personnage.astro";
+
+const personnages = await getCollection('personnages');
+---
+
+<section>
+  <div class="prose dark:prose-invert prose-neutral mb-3">
+    <h2>Les aventuriers</h2>
+  </div>
+  <ul>
+  {personnages.map((personnage) => <Personnage personnage={personnage} />)}
+  </ul>
+</section>
