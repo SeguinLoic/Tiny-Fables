@@ -44,10 +44,15 @@ const { personnage } = Astro.props;
 <style>
 li {
     padding: 16px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: self-start;
+    gap: 24px;
 }
 span.name {
     font-size: 1.3em;
     font-weight: 700;
+    line-height: 1em;
 }
 table tbody tr {
     border: 1px solid;

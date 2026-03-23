@@ -1,38 +1,6 @@
 [  
   { 
     "id": 1,
-    "name": "Bobby",
-    "level": 1,
-    "image": {
-      "source": "./covers/algernon.jpg",
-      "alt": "Image de couverture du livre des fleurs pour algernon"
-    },
-    "stats": {
-      "str" : 4,
-      "dex" : 6,
-      "will" : 12,
-      "life": 2
-    },
-    "pips" : 45
-  },
-    { 
-    "id": 2,
-    "name": "Foggy",
-    "level": 1,
-    "image": {
-      "source": "./covers/algernon.jpg",
-      "alt": "Image de couverture du livre des fleurs pour algernon"
-    },
-    "stats": {
-      "str" : 4,
-      "dex" : 6,
-      "will" : 12,
-      "life": 2
-    },
-    "pips" : 45
-  },
-    { 
-    "id": 3,
     "name": "Ambroise",
     "level": 1,
     "image": {
@@ -47,9 +15,9 @@
     },
     "pips" : 45
   },
-    { 
-    "id": 4,
-    "name": "Libuxa",
+  { 
+    "id": 2,
+    "name": "Bobby",
     "level": 1,
     "image": {
       "source": "./covers/algernon.jpg",
@@ -63,9 +31,41 @@
     },
     "pips" : 45
   },
-    { 
-    "id": 5,
+  { 
+    "id": 3,
+    "name": "Foggy",
+    "level": 1,
+    "image": {
+      "source": "./covers/algernon.jpg",
+      "alt": "Image de couverture du livre des fleurs pour algernon"
+    },
+    "stats": {
+      "str" : 4,
+      "dex" : 6,
+      "will" : 12,
+      "life": 2
+    },
+    "pips" : 45
+  },
+  { 
+    "id": 4,
     "name": "Hickory",
+    "level": 1,
+    "image": {
+      "source": "./covers/algernon.jpg",
+      "alt": "Image de couverture du livre des fleurs pour algernon"
+    },
+    "stats": {
+      "str" : 4,
+      "dex" : 6,
+      "will" : 12,
+      "life": 2
+    },
+    "pips" : 45
+  },
+  { 
+    "id": 5,
+    "name": "Libuxa",
     "level": 1,
     "image": {
       "source": "./covers/algernon.jpg",
