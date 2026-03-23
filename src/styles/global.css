@@ -24,7 +24,8 @@
 
 @theme {
   --color-bg: var(--color-neutral-50);
-  --color-link: oklch(46.97% 0.2734 267.56);
+  /* --color-link: oklch(46.97% 0.2734 267.56); */
+  --color-link: oklch(0.33 0 0);
   --color-muted-text: var(--color-neutral-700);
 
   --color-dark-bg: var(--color-neutral-950);
@@ -40,7 +41,7 @@
 .link,
 .prose :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
   color: var(--color-link);
-  font-weight: var(--font-weight-semibold);
+  /* font-weight: var(--font-weight-semibold); */
   text-decoration: underline;
   text-underline-offset: 3px;
   text-decoration-color: var(--color-link);
@@ -64,4 +65,9 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+h2 {
+  font-family: PirataOne;
+  font-size: 1.8em;
 }
