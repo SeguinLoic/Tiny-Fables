@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import { Image } from 'astro:assets';
 
 interface Props {
   personnage: CollectionEntry<"personnages">;
@@ -9,7 +10,7 @@ const { personnage } = Astro.props;
 ---
 
 <li>
-    <img src={personnage.data.image.source} alt={personnage.data.image.alt} />
+    <Image src={personnage.data.image.source} alt={personnage.data.image.alt} width="90px" />
     <span>{personnage.data.name}</span>
     <span>level: {personnage.data.level}</span>
     <span>Pips: {personnage.data.pips}</span>
