@@ -16,10 +16,6 @@ export const NAV_LINKS: NavigationLinks = {
     path: "/posts",
     label: "La revue",
   },
-  projects: {
-    path: "/projects",
-    label: "Projects",
-  },
   personnages: {
     path: "/personnages",
     label: "Les personnages",
