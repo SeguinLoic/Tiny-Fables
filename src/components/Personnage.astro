@@ -9,5 +9,28 @@ const { personnage } = Astro.props;
 ---
 
 <li>
+    <img src={personnage.data.image.source} alt={personnage.data.image.alt} />
     <span>{personnage.data.name}</span>
+    <span>level: {personnage.data.level}</span>
+    <span>Pips: {personnage.data.pips}</span>
+    <table>
+        <tbody>
+            <tr>
+                <th scope="row">Strength</th>
+                <td>{personnage.data.stats.str}</td>
+            </tr>
+            <tr>
+                <th scope="row">Dexterity</th>
+                <td>{personnage.data.stats.dex}</td>
+            </tr>
+            <tr>
+                <th scope="row">Will power</th>
+                <td>{personnage.data.stats.will}</td>
+            </tr>
+            <tr>
+                <th scope="row">Life</th>
+                <td>{personnage.data.stats.life}</td>
+            </tr>
+        </tbody>
+    </table>
 </li>
