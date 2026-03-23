@@ -2,14 +2,11 @@
 import { NAV_LINKS, SITE } from "@/siteConfig.ts";
 ---
 
-<header
-  class="mx-auto flex max-w-screen-sm flex-wrap items-center justify-between p-3 pb-8 sm:p-6"
->
-  <a
-    href="/"
-    class="text-lg font-semibold text-black sm:text-xl dark:text-white"
-    >{SITE.title}</a
-  >
+<header class="mx-auto flex max-w-screen-sm flex-wrap items-center justify-between p-3 pb-8 sm:p-6">
+  <!-- <a href="/" class="text-lg font-semibold text-black sm:text-xl dark:text-white">{SITE.title}</a> -->
+  <a href="/" class="text-lg font-semibold text-black sm:text-xl dark:text-white">
+    <img src={"./logo-tiny-fables.png"} alt="logo" />
+  </a>
   <nav>
     <ul class="flex list-none items-center gap-2 p-0 sm:gap-3">
       {

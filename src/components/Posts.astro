@@ -11,7 +11,7 @@ const posts = await getCollection("posts");
 
 <section>
   <div class="prose dark:prose-invert prose-neutral mb-3">
-    <h2>La revue des p'tites souris</h2>
+    <h2>La Maus'letter</h2>
   </div>
   <ul class="grid list-none gap-4 p-0">
     {posts.map((post) => <Post post={post} />)}
