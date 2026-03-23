@@ -20,4 +20,8 @@ export const NAV_LINKS: NavigationLinks = {
     path: "/projects",
     label: "Projects",
   },
+  personnages: {
+    path: "/personnages",
+    label: "Personnages",
+  },
 };
