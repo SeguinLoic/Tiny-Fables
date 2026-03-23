@@ -11,9 +11,11 @@ const { personnage } = Astro.props;
 
 <li>
     <Image src={personnage.data.image.source} alt={personnage.data.image.alt} width="90px" />
-    <span>{personnage.data.name}</span>
-    <span>level: {personnage.data.level}</span>
-    <span>Pips: {personnage.data.pips}</span>
+    <span class="name">{personnage.data.name}</span>
+    <div>
+        <span>level: {personnage.data.level}</span>
+        <span>Pips: {personnage.data.pips}</span>
+    </div>
     <table>
         <tbody>
             <tr>
