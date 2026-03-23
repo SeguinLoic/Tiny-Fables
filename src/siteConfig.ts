@@ -14,7 +14,7 @@ export const SITE: SiteConfiguration = {
 export const NAV_LINKS: NavigationLinks = {
   posts: {
     path: "/posts",
-    label: "Posts",
+    label: "La revue",
   },
   projects: {
     path: "/projects",
@@ -22,6 +22,6 @@ export const NAV_LINKS: NavigationLinks = {
   },
   personnages: {
     path: "/personnages",
-    label: "Personnages",
+    label: "Les personnages",
   },
 };
