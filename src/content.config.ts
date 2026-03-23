@@ -1,6 +1,6 @@
 import { defineCollection } from "astro:content";
 import { z } from "astro/zod";
-import { glob } from "astro/loaders";
+import { glob, file } from "astro/loaders";
 
 const posts = defineCollection({
   loader: glob({ pattern: "**/[^_]*.{md,mdx}", base: "./src/content/posts" }),
@@ -15,4 +15,23 @@ const posts = defineCollection({
     }),
 });
 
-export const collections = { posts };
+const personnages = defineCollection({
+  loader: file("src/content/personnages/personnages.json"),
+  schema: ({ image }) => z.object({
+    name: z.string(),
+    level: z.number(),
+    image: z.object({
+       source: image(),
+       alt: z.string()
+    }),
+    stats: z.object({
+       str: z.number(),
+       dex: z.number(),
+       will: z.number(),
+       life: z.number()
+    }),
+    pips: z.number(),
+  })
+})
+
+export const collections = { posts, personnages };

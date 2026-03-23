@@ -1,11 +1,19 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import Introduction from "@/components/Introduction.astro";
+import Personnage from "@/components/Personnage.astro";
+
+import { getCollection } from "astro:content";
+
+const personnages = await getCollection('personnages');
 ---
 
 <BaseLayout>
   <div>
     <Introduction />
     <div class="prose dark:prose-invert prose-neutral my-12"><hr /></div>
+    <ul>
+      {personnages.map((personnage) => <Personnage personnage={personnage} />)}
+    </ul>
   </div>
 </BaseLayout>

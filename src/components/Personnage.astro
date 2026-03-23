@@ -1,0 +1,13 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  personnage: CollectionEntry<"personnages">;
+}
+
+const { personnage } = Astro.props;
+---
+
+<li>
+    <span>{personnage.data.name}</span>
+</li>
