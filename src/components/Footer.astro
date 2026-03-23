@@ -5,11 +5,10 @@ import ThemeToggle from "@/components/ThemeToggle.astro";
 const year = new Date().getFullYear();
 ---
 
-<footer
-  class="mx-auto flex w-full flex-col items-start gap-6 pt-16 pb-24 sm:flex-row sm:items-center sm:justify-between sm:gap-8"
->
-  <ThemeToggle />
-  <span class="prose dark:prose-invert prose-neutral mt-2"
-    >{year} {SITE.author}</span
-  >
+<footer class="mx-auto flex w-full flex-col items-start gap-6 pt-16 pb-24 sm:flex-row sm:items-center sm:justify-between sm:gap-8">
+  <div>
+    <ThemeToggle />
+    <span class="prose dark:prose-invert prose-neutral mt-2">{year} {SITE.author}</span>
+  </div>
+  <img src={"/footer.png"} alt="footer" />
 </footer>

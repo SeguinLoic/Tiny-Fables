@@ -13,3 +13,10 @@ const personnages = await getCollection('personnages');
   {personnages.map((personnage) => <Personnage personnage={personnage} />)}
   </ul>
 </section>
+
+<style>
+  ul {
+    display: flex; 
+    flex-wrap: wrap;
+  }
+</style>
