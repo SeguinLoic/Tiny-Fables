@@ -13,27 +13,28 @@ const { personnage } = Astro.props;
     <!-- <Image src={personnage.data.image.source} alt={personnage.data.image.alt} width="90px" /> -->
     <div>
         <span class="text-xl leading-[1.3em] font-pirata">{personnage.data.name}</span>
-        <div>
-            <span>Level: {personnage.data.level}</span>
-            <span>Pips: {personnage.data.pips}</span>
-        </div>
+        <span>Level: {personnage.data.level}</span>
         <table>
             <tbody>
                 <tr>
-                    <th scope="row" class="bg-gray-100">Strength</th>
+                    <th scope="row" class="bg-gray-200">Strength</th>
                     <td>{personnage.data.stats.str}</td>
                 </tr>
                 <tr>
-                    <th scope="row" class="bg-gray-100">Dexterity</th>
+                    <th scope="row" class="bg-gray-200">Dexterity</th>
                     <td>{personnage.data.stats.dex}</td>
                 </tr>
                 <tr>
-                    <th scope="row" class="bg-gray-100">Will power</th>
+                    <th scope="row" class="bg-gray-200">Will power</th>
                     <td>{personnage.data.stats.will}</td>
                 </tr>
                 <tr>
-                    <th scope="row" class="bg-gray-100">Life</th>
+                    <th scope="row" class="bg-gray-200">Life</th>
                     <td>{personnage.data.stats.life}</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="bg-gray-200">Pips</th>
+                    <td>{personnage.data.pips}</td>
                 </tr>
             </tbody>
         </table>
