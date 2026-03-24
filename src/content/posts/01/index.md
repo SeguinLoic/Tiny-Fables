@@ -1,7 +1,9 @@
 ---
 title: La malédiction d'EA
-description: A girl falls through a rabbit hole.
-publicationDate: 2024-07-02
+description: C'est fou, tout le monde a l'air déprimé dans la ville de Débois
+publicationDate: 2026-01-27
+image: "./cover.jpg"
+imageAlt: Une petite frèsque avec des personnages de Tiny Fables
 ---
 
 ## Titre

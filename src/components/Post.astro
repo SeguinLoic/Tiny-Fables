@@ -15,6 +15,7 @@ const { post } = Astro.props;
     class="flex w-full flex-col sm:flex-row sm:items-center sm:justify-between"
   >
     <span class="link">{post.data.title}</span>
+    <span>{post.data.description}</span>
     <div class="text-muted-text dark:text-dark-muted-text text-sm font-normal">
       {formatDate(post.data.publicationDate)}
     </div>

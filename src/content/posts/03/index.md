@@ -1,8 +1,8 @@
 ---
 title: Le pont de Boris la Taupéage
-description: A page displaying common elements used in Markdown documents.
-publicationDate: 2025-03-20T01:29:19Z
-image: "./hero.jpg"
+description: Désolé Boris. C'est ce qui s'appelle être au mauvais endroit au mauvais moment...
+publicationDate: 2026-02-24
+image: "./cover.jpg"
 imageAlt: Les petites souris et la pie
 ---
 

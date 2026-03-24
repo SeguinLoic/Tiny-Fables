@@ -1,9 +1,9 @@
 ---
 title: Une rencontre terrifiante
-description: A salesman wakes up and finds himself transformed into an insect.
-publicationDate: 2024-08-03
-image: "./hero.jpg"
-imageAlt: Les petites souris et la pie
+description: Il y a de très belles rencontres, et, parfois, des rencontres qu'on souhaiterait éviter
+publicationDate: 2026-02-10
+image: "./cover.jpg"
+imageAlt: La carte du monde
 ---
 
 ## Titre
