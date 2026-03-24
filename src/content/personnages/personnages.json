@@ -8,12 +8,12 @@
       "alt": "Image de couverture du livre des fleurs pour algernon"
     },
     "stats": {
-      "str" : 4,
+      "str" : 12,
       "dex" : 6,
-      "will" : 12,
-      "life": 2
+      "will" : 9,
+      "life": 3
     },
-    "pips" : 45
+    "pips" : 119
   },
   { 
     "id": 2,
@@ -25,11 +25,11 @@
     },
     "stats": {
       "str" : 4,
-      "dex" : 6,
-      "will" : 12,
+      "dex" : 7,
+      "will" : 6,
       "life": 2
     },
-    "pips" : 45
+    "pips" : 118
   },
   { 
     "id": 3,
@@ -40,12 +40,12 @@
       "alt": "Image de couverture du livre des fleurs pour algernon"
     },
     "stats": {
-      "str" : 4,
-      "dex" : 6,
-      "will" : 12,
-      "life": 2
+      "str" : 9,
+      "dex" : 8,
+      "will" : 11,
+      "life": 6
     },
-    "pips" : 45
+    "pips" : 106
   },
   { 
     "id": 4,
@@ -72,11 +72,11 @@
       "alt": "Image de couverture du livre des fleurs pour algernon"
     },
     "stats": {
-      "str" : 4,
+      "str" : 9,
       "dex" : 6,
-      "will" : 12,
+      "will" : 10,
       "life": 2
     },
-    "pips" : 45
+    "pips" : 154
   }
 ]
