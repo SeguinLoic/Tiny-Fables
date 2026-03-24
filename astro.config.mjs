@@ -12,11 +12,6 @@ export default defineConfig({
       cssVariable: "--font-geist",
     },
   ],
-  markdown: {
-    shikiConfig: {
-      theme: "dark-plus",
-    },
-  },
   site: "https://tinyfables.netlify.app/",
   vite: {
     plugins: [tailwindcss()],
