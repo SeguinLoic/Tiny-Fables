@@ -36,7 +36,7 @@
     },
     "pips" : 118,
     "stuff": [
-      {"source": "./equipement/aiguille.jpg", "alt": "équipement"},
+      {"source": "./equipement/bobbys-bonk.jpg", "alt": "équipement"},
       {"source": "./equipement/armure-etain.jpg", "alt": "équipement"},
       {"source": "./equipement/torches.jpg", "alt": "équipement"}, 
       {"source": "./equipement/rations.jpg", "alt": "équipement"}
