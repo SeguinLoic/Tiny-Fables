@@ -10,10 +10,12 @@ const { personnage } = Astro.props;
 ---
 
 <li class="flex flex-row items-start gap-[24px]">
-    <!-- <Image src={personnage.data.image.source} alt={personnage.data.image.alt} width="90px" /> -->
-    <div>
-        <span class="text-xl leading-[1.3em] font-pirata">{personnage.data.name}</span>
-        <span>Level: {personnage.data.level}</span>
+    <section>
+        <div>
+            <!-- <Image src={personnage.data.image.source} alt={personnage.data.image.alt} width="90px" /> -->
+            <span class="text-xl leading-[1.3em] font-pirata">{personnage.data.name}</span>
+            <span>Level: {personnage.data.level}</span>
+        </div>
         <table>
             <tbody>
                 <tr>
@@ -41,7 +43,7 @@ const { personnage } = Astro.props;
         <div>
             {personnage.data.stuff.map(elem => <img src={elem.source.src} alt={elem.alt} width="90px" />)}
         </div>
-    </div>
+    </section>
 </li>
 
 
