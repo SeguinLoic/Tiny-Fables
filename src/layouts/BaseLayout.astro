@@ -13,6 +13,21 @@ import Navigation from "@/components/Navigation.astro";
   </BaseHead>
   <body class="bg-bg font-sans">
     <Navigation />
+    <div class="pb-0 sm:pb-0">
+      <main class="min-h-[80vh] mx-auto max-w-screen-sm p-3 sm:p-6">
+        <slot />
+      </main>
+      <Footer />
+    </div>
+  </body>
+</html>
+
+<!-- <html lang={SITE.locale}>
+  <BaseHead>
+    <slot name="head" />
+  </BaseHead>
+  <body class="bg-bg font-sans">
+    <Navigation />
     <div class="mx-auto max-w-screen-sm p-3 pb-0 sm:p-6 sm:pb-0">
       <main class="min-h-[80vh]">
         <slot />
@@ -20,4 +35,5 @@ import Navigation from "@/components/Navigation.astro";
       <Footer />
     </div>
   </body>
-</html>
+</html> -->
+
