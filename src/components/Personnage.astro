@@ -16,7 +16,7 @@ const { personnage } = Astro.props;
             <span class="leading-[1.3em] font-pirata text-2xl">{personnage.data.name}</span>
             <span>Level: {personnage.data.level}</span>
         </div>
-        <div class="flex items-start gap-[12px]">
+        <div class="flex items-start gap-[12px] flex-col sm:flex-row">
             <table>
                 <tbody>
                     <tr>
