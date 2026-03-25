@@ -10,13 +10,13 @@ const { personnage } = Astro.props;
 ---
 
 <li class="flex flex-row items-start gap-[24px] w-full">
-    <section>
+    <section class="gap-[12px]">
         <div>
             <!-- <Image src={personnage.data.image.source} alt={personnage.data.image.alt} width="90px" /> -->
-            <span class="text-xl leading-[1.3em] font-pirata">{personnage.data.name}</span>
+            <span class="leading-[1.3em] font-pirata text-2xl">{personnage.data.name}</span>
             <span>Level: {personnage.data.level}</span>
         </div>
-        <div class="flex items-start">
+        <div class="flex items-start gap-[12px]">
             <table>
                 <tbody>
                     <tr>
