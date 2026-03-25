@@ -81,7 +81,7 @@
     },
     "pips" : 3,
     "stuff": [
-      {"source": "./equipement/lance.jpg", "alt": "équipement"},
+      {"source": "./equipement/clocksword.jpg", "alt": "équipement"},
       {"source": "./equipement/torches.jpg", "alt": "équipement"}
   ]
   },
