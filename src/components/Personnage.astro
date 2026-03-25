@@ -16,32 +16,34 @@ const { personnage } = Astro.props;
             <span class="text-xl leading-[1.3em] font-pirata">{personnage.data.name}</span>
             <span>Level: {personnage.data.level}</span>
         </div>
-        <table>
-            <tbody>
-                <tr>
-                    <th scope="row" class="bg-gray-200">Str</th>
-                    <td>{personnage.data.stats.str}</td>
-                </tr>
-                <tr>
-                    <th scope="row" class="bg-gray-200">Dex</th>
-                    <td>{personnage.data.stats.dex}</td>
-                </tr>
-                <tr>
-                    <th scope="row" class="bg-gray-200">Will</th>
-                    <td>{personnage.data.stats.will}</td>
-                </tr>
-                <tr>
-                    <th scope="row" class="bg-gray-200">HP</th>
-                    <td>{personnage.data.stats.hp}</td>
-                </tr>
-                <tr>
-                    <th scope="row" class="bg-gray-200">Pips</th>
-                    <td>{personnage.data.pips}</td>
-                </tr>
-            </tbody>
-        </table>
         <div>
-            {personnage.data.stuff.map(elem => <img src={elem.source.src} alt={elem.alt} width="90px" />)}
+            <table>
+                <tbody>
+                    <tr>
+                        <th scope="row" class="bg-gray-200">Str</th>
+                        <td>{personnage.data.stats.str}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="bg-gray-200">Dex</th>
+                        <td>{personnage.data.stats.dex}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="bg-gray-200">Will</th>
+                        <td>{personnage.data.stats.will}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="bg-gray-200">HP</th>
+                        <td>{personnage.data.stats.hp}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="bg-gray-200">Pips</th>
+                        <td>{personnage.data.pips}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div>
+                {personnage.data.stuff.map(elem => <img src={elem.source.src} alt={elem.alt} width="90px" />)}
+            </div>
         </div>
     </section>
 </li>
