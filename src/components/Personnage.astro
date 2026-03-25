@@ -9,7 +9,7 @@ interface Props {
 const { personnage } = Astro.props;
 ---
 
-<li class="flex flex-row items-start gap-[24px]">
+<li class="flex flex-row items-start gap-[24px] w-[calc(50% - 16px)]">
     <section>
         <div>
             <!-- <Image src={personnage.data.image.source} alt={personnage.data.image.alt} width="90px" /> -->
@@ -41,13 +41,12 @@ const { personnage } = Astro.props;
                     </tr>
                 </tbody>
             </table>
-            <div>
+            <div class="flex justify-start items-start flex-wrap">
                 {personnage.data.stuff.map(elem => <img src={elem.source.src} alt={elem.alt} width="90px" />)}
             </div>
         </div>
     </section>
 </li>
-
 
 <style>
     .font-pirata {
