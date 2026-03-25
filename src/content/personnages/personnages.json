@@ -14,7 +14,10 @@
       "hp": 3
     },
     "pips" : 119,
-    "stuff": [{"source": "./equipement/aiguille.jpg", "alt": "équipement"}]
+    "stuff": [
+      {"source": "./equipement/aiguille.jpg", "alt": "équipement"}, 
+      {"source": "./equipement/lance-crochet.jpg", "alt": "équipement"}
+    ]
   },
   { 
     "id": 2,
