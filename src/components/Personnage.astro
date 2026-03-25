@@ -44,7 +44,7 @@ const { personnage } = Astro.props;
         <div>
             {personnage.data.stuff.map(elem => <Debug {elem} />)}
             {personnage.data.stuff.map(elem => <img src={elem.source.src} alt={elem.alt} width="90px" />)}
-            {personnage.data.stuff.map(elem => <Image src={elem.source.src} alt={elem.alt} width="90px" />)}
+            {personnage.data.stuff.map(elem => <Image src={elem.source.src} alt={elem.alt} width="90px" height="auto" />)}
         </div>
     </div>
 </li>
