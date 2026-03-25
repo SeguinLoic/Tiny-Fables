@@ -37,6 +37,7 @@
     "pips" : 118,
     "stuff": [
       {"source": "./equipement/aiguille.jpg", "alt": "équipement"},
+      {"source": "./equipement/armure-etain.jpg", "alt": "équipement"},
       {"source": "./equipement/torches.jpg", "alt": "équipement"}, 
       {"source": "./equipement/rations.jpg", "alt": "équipement"}
     ]
@@ -59,9 +60,9 @@
     "stuff": [
       {"source": "./equipement/fronde.jpg", "alt": "équipement"},
       {"source": "./equipement/pierres.jpg", "alt": "équipement"}, 
+      {"source": "./equipement/sort-vision.jpg", "alt": "équipement"},
       {"source": "./equipement/rations.jpg", "alt": "équipement"},
-      {"source": "./equipement/torches.jpg", "alt": "équipement"}, 
-      {"source": "./equipement/rations.jpg", "alt": "équipement"}
+      {"source": "./equipement/torches.jpg", "alt": "équipement"}
     ]
   },
   { 
