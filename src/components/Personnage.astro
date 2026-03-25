@@ -42,7 +42,7 @@ const { personnage } = Astro.props;
                 </tbody>
             </table>
             <div class="flex justify-start items-start flex-wrap gap-[8px]">
-                {personnage.data.stuff.map(elem => <img src={elem.source.src} alt={elem.alt} width="90px" />)}
+                {personnage.data.stuff.map(elem => <img src={elem.source.src} alt={elem.alt} width="110px" class="border border-solid border-black" />)}
             </div>
         </div>
     </section>
