@@ -28,7 +28,7 @@ const personnages = defineCollection({
        str: z.number(),
        dex: z.number(),
        will: z.number(),
-       life: z.number()
+       hp: z.number()
     }),
     pips: z.number(),
   })
