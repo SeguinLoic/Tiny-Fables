@@ -42,10 +42,9 @@ const { personnage } = Astro.props;
             </tbody>
         </table>
         <div>
+            {personnage.data.stuff}
             {
                 personnage.data.stuff.map((equipement) => {
-                    <Debug {equipement} />
-                    <div>{equipement}</div>
                     <Image src={equipement.source} alt={equipement.alt} width="50px" />
                 })
             }
