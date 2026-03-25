@@ -31,6 +31,7 @@ const personnages = defineCollection({
        hp: z.number()
     }),
     pips: z.number(),
+    stuff: z.array(z.object({source: image(), alt: z.string()})).optional(),
   })
 })
 

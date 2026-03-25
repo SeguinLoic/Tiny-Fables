@@ -6,6 +6,4 @@ image: "./cover.jpg"
 imageAlt: Les couloirs du chateau de Chulip
 ---
 
-## Titre
-
-Description.
+À venir.

@@ -13,7 +13,8 @@
       "will" : 9,
       "hp": 3
     },
-    "pips" : 119
+    "pips" : 119,
+    "stuff": [{"source": "./equipement/aiguille.jpg", "alt": "équipement"}]
   },
   { 
     "id": 2,
@@ -29,7 +30,8 @@
       "will" : 6,
       "hp": 2
     },
-    "pips" : 118
+    "pips" : 118,
+    "stuff": [{"source": "./equipement/aiguille.jpg", "alt": "équipement"}]
   },
   { 
     "id": 3,
@@ -45,7 +47,8 @@
       "will" : 11,
       "hp": 6
     },
-    "pips" : 106
+    "pips" : 106,
+    "stuff": [{"source": "./equipement/aiguille.jpg", "alt": "équipement"}]
   },
   { 
     "id": 4,
@@ -61,7 +64,8 @@
       "will" : 7,
       "hp": 2
     },
-    "pips" : 3
+    "pips" : 3,
+    "stuff": [{"source": "./equipement/aiguille.jpg", "alt": "équipement"}]
   },
   { 
     "id": 5,
@@ -77,6 +81,7 @@
       "will" : 10,
       "hp": 2
     },
-    "pips" : 154
+    "pips" : 154,
+    "stuff": [{"source": "./equipement/aiguille.jpg", "alt": "équipement"}]
   }
 ]
