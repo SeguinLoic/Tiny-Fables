@@ -24,7 +24,7 @@ const { Content } = await render(entry);
 
 <BaseLayout>
   <div>
-    <a href="/" class="flex mb-3 underline"><i class="arrow">←</i>Retour à l'accueil</a>
+    <a href="/" class="flex mb-3"><i class="arrow">←</i>Retour à l'accueil</a>
     {
       entry.data.image && (
         <Image
@@ -51,3 +51,10 @@ const { Content } = await render(entry);
     </div>
   </div>
 </BaseLayout>
+
+<style>
+  i.arrow {
+    font-size: small;
+    margin-right: 4px;
+}
+</style>
