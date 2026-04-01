@@ -4,8 +4,8 @@
     "name": "Ambroise",
     "level": 1,
     "image": {
-      "source": "./covers/algernon.jpg",
-      "alt": "Image de couverture du livre des fleurs pour algernon"
+      "source": "./covers/ambroise.png",
+      "alt": "Ambroise, la petite canaille"
     },
     "stats": {
       "str" : 12,
@@ -25,8 +25,8 @@
     "name": "Bobby",
     "level": 1,
     "image": {
-      "source": "./covers/algernon.jpg",
-      "alt": "Image de couverture du livre des fleurs pour algernon"
+      "source": "./covers/bobby.png",
+      "alt": "Bobby, le troubadour enjoué"
     },
     "stats": {
       "str" : 4,
@@ -90,8 +90,8 @@
     "name": "Libuxa",
     "level": 1,
     "image": {
-      "source": "./covers/algernon.jpg",
-      "alt": "Image de couverture du livre des fleurs pour algernon"
+      "source": "./covers/libuxa.png",
+      "alt": "Libuxa la petite souris bleue"
     },
     "stats": {
       "str" : 9,
