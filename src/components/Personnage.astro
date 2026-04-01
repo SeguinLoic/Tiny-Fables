@@ -12,7 +12,7 @@ const { personnage } = Astro.props;
 <li class="flex flex-row items-start gap-[24px] w-full">
     <section class="flex flex-col gap-[12px]">
         <div class="flex gap-[12px] items-end">
-            <!-- <Image src={personnage.data.image.source} alt={personnage.data.image.alt} width="90px" /> -->
+            <Image src={personnage.data.image.source} alt={personnage.data.image.alt} width="150px" />
             <span class="leading-[1.3em] font-pirata text-2xl">{personnage.data.name}</span>
             <span>Level: {personnage.data.level}</span>
         </div>
