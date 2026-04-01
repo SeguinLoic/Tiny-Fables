@@ -47,7 +47,7 @@
     "name": "Foggy",
     "level": 1,
     "image": {
-      "source": "./covers/algernon.jpg",
+      "source": "",
       "alt": "Image de couverture du livre des fleurs pour algernon"
     },
     "stats": {
@@ -70,7 +70,7 @@
     "name": "Hickory",
     "level": 1,
     "image": {
-      "source": "./covers/algernon.jpg",
+      "source": "",
       "alt": "Image de couverture du livre des fleurs pour algernon"
     },
     "stats": {
