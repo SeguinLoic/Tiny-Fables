@@ -9,7 +9,7 @@ const personnages = await getCollection('personnages');
   <div class="prose dark:prose-invert prose-neutral mb-3">
     <h2>Les aventuriers</h2>
   </div>
-  <ul class="flex flex-col gap-[32px]">
+  <ul class="flex flex-row gap-[32px] flex-wrap">
   {personnages.map((personnage) => <Personnage personnage={personnage} />)}
   </ul>
 </section>
