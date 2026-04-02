@@ -9,7 +9,7 @@ interface Props {
 const { personnage } = Astro.props;
 ---
 
-<li class="flex flex-row items-start gap-[24px] w-full">
+<li class="flex flex-row items-start gap-[24px]">
     <section class="flex flex-row gap-[12px]">
         <div class="flex">
             <Image src={personnage.data.image.source} alt={personnage.data.image.alt} width="150px" />
