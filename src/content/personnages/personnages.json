@@ -4,7 +4,7 @@
     "name": "Ambroise",
     "level": 1,
     "image": {
-      "source": "./covers/ambroise.png",
+      "source": "./covers/ambroise-blog.png",
       "alt": "Ambroise, la petite canaille"
     },
     "stats": {
@@ -25,7 +25,7 @@
     "name": "Bobby",
     "level": 1,
     "image": {
-      "source": "./covers/bobby.png",
+      "source": "./covers/bobby-blog.png",
       "alt": "Bobby, le troubadour enjoué"
     },
     "stats": {
@@ -90,7 +90,7 @@
     "name": "Libuxa",
     "level": 1,
     "image": {
-      "source": "./covers/libuxa.png",
+      "source": "./covers/Libuxa-blog.png",
       "alt": "Libuxa la petite souris bleue"
     },
     "stats": {
