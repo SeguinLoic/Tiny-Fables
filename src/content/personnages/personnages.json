@@ -2,16 +2,16 @@
   { 
     "id": 1,
     "name": "Ambroise",
-    "level": 1,
+    "level": 2,
     "image": {
       "source": "./covers/ambroise.png",
       "alt": "Ambroise, la petite canaille"
     },
     "stats": {
       "str" : 12,
-      "dex" : 6,
-      "will" : 9,
-      "hp": 3
+      "dex" : 7,
+      "will" : 10,
+      "hp": 7
     },
     "pips" : 119,
     "stuff": [
@@ -23,16 +23,16 @@
   { 
     "id": 2,
     "name": "Bobby",
-    "level": 1,
+    "level": 2,
     "image": {
       "source": "./covers/bobby.png",
       "alt": "Bobby, le troubadour enjoué"
     },
     "stats": {
-      "str" : 4,
-      "dex" : 7,
-      "will" : 6,
-      "hp": 2
+      "str" : 5,
+      "dex" : 8,
+      "will" : 7,
+      "hp": 11
     },
     "pips" : 118,
     "stuff": [
@@ -45,16 +45,16 @@
   { 
     "id": 3,
     "name": "Foggy",
-    "level": 1,
+    "level": 2,
     "image": {
       "source": "./covers/libuxa.png",
       "alt": "Image de couverture du livre des fleurs pour algernon"
     },
     "stats": {
       "str" : 9,
-      "dex" : 8,
-      "will" : 11,
-      "hp": 6
+      "dex" : 9,
+      "will" : 12,
+      "hp": 12
     },
     "pips" : 106,
     "stuff": [
@@ -68,16 +68,16 @@
   { 
     "id": 4,
     "name": "Hickory",
-    "level": 1,
+    "level": 2,
     "image": {
       "source": "./covers/bobby.png",
       "alt": "Image de couverture du livre des fleurs pour algernon"
     },
     "stats": {
       "str" : 7,
-      "dex" : 7,
+      "dex" : 8,
       "will" : 7,
-      "hp": 2
+      "hp": 8
     },
     "pips" : 3,
     "stuff": [
@@ -88,16 +88,16 @@
   { 
     "id": 5,
     "name": "Libuxa",
-    "level": 1,
+    "level": 2,
     "image": {
       "source": "./covers/libuxa.png",
       "alt": "Libuxa la petite souris bleue"
     },
     "stats": {
-      "str" : 9,
-      "dex" : 6,
+      "str" : 10,
+      "dex" : 7,
       "will" : 10,
-      "hp": 2
+      "hp": 6
     },
     "pips" : 154,
     "stuff": [
