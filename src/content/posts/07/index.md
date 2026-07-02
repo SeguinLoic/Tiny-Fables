@@ -2,7 +2,7 @@
 title: L'arrestation des quatres "rats-visseur"
 description: Quelque chose me dit que ce n'est que le début de l'aventure
 publicationDate: 2026-05-11
-image: "./cover.png"
+image: "./cover.jpg"
 imageAlt: La carte de Pwyll
 ---
 
