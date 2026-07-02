@@ -1,7 +1,7 @@
 ---
 title: Coup d'Etat ou balade dans les bois ?
 description: Les aventuriers sont partis chercher du renfort à l'ouest, proche du lac 
-publicationDate: 2026-06-23
+publicationDate: 2026-05-26
 image: "./cover.jpg"
 imageAlt: La carte de Pwyll
 ---
